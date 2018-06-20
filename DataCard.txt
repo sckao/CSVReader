@@ -1,0 +1,31 @@
+########################################################
+#  This is the data card for CSV Analysis              #
+#  Auther : Shih-Chuan, Kevin, Kao                     # 
+########################################################
+
+# Folder to store results
+Path = Result/
+CSVDIR = CSV/
+
+# plot type : png / gif / eps / jpg / pdf 
+PlotType = png
+PlotName = Output
+# Root file name
+HFileName = h_test
+
+#######################################################################################
+# Module 0: CSV Reader 
+########################################################################################
+
+# number of header line to skip
+NSkipLine = 1 
+# the index of selected column
+Column = ( 1,4,5,6,7,11,12,13,14,15 )
+
+Module = 0
+CSVFile = PTI_Dynamics1.csv
+OutputFile = Output_PTI_Dynm1.csv
+
+
+debug = 0
+
